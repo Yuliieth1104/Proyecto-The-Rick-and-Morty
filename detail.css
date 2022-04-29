@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.topnav {
+    background-color: #0BBDD3;
+    overflow: hidden;
+  }
+  
+ 
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+  .topnav .icon {
+    display: none;
+  }
+
+.card{
+    font-family:Courier;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 365px;
+    text-align: center;
+}
+
+.contenedorr{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.cardcita{
+    width: 80%;
+    background: white;
+    border-radius: 8px;
+
+}
+
+body{
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/photos/old-wall-texture-cement-dark-black-gray-background-abstract-grey-picture-id1191605650?b=1&k=6&m=1191605650&s=170667a&w=0&h=dWQFHIfjOf4uKeTBRdY9IDwUKSRnG_p-xSelGaAsLdY=);
+    display: grid;
+}
+
+.voltear{
+    background-color: transparent;
+    width: 300px;
+    height: 170px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+.voltearI{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.voltear:hover .voltearI{
+    transform: rotateY(180deg);
+
+}
+
+.frontal .detras{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frontal{
+    background-color: white;
+
+}
+
+.detras{
+    color: black;
+    transform: rotateY(180deg);
+   
+}
+

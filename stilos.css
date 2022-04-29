@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.card{
+    font-family:Courier;
+    font-size: 15px;
+    border-color:rgb(17, 0, 255);
+    border-radius: 9px;
+    height: 500px;
+}
+
+.card-titlle{
+   text-align: center;
+}
+
+.titulito{
+    text-align: center;
+    margin: 70px;
+    margin-top: 10px;
+    color:azure;
+}
+
+.contenedor{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 80px;
+   
+}
+
+body{
+    width: 100%;
+    background-image: url(https://www.teahub.io/photos/full/193-1938865_rick-e-morty-wallpaper-4k.jpg);
+    display: grid;
+}
+
+.card-title{
+    font-size: 15px;
+    padding: 8px;
+}
+
+.topnav {
+    background-color: #0BBDD3;
+    overflow: hidden;
+  }
+  
+ 
+  .topnav a {
+    float:right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+  .topnav .icon {
+    display: none;
+  }
